@@ -16,5 +16,5 @@ do
         > $config_name.log 2>&1
 done
 sleep 2m
-nohup sh pretrain_finetune1_c.sh > 1e-4-2_p1=mlm-d-p015#p2=mt-a01-cate14mul-fix-with-linear#f1=sh#f2=con-no#f3=mt-a0-inherit-linear_e1416.log 2>&1 &
-nohup sh pretrain_finetune1.sh > 1e-4-2_p1=mlm-d-p015#p2=mt-a01-cate14mul-fix-with-linear#f1=sh#f2=con-no#f3=mt-a0-inherit-linear_e1820.log 2>&1 &
+nohup sh pretrain_finetune1_c.sh > p1=amlm-p015-ap06-factor1-1e-4#f1=sh#f2=con-d#f3=no_e1416.log 2>&1 &
+nohup sh pretrain_finetune1.sh > p1=amlm-p015-ap06-factor1-1e-4#f1=sh#f2=con-d#f3=no_e1820.log 2>&1 &
